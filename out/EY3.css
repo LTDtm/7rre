@@ -1,0 +1,44 @@
+#toggle{
+ visibility: hidden;
+ opacity: 0;
+ z-index: -1;
+}
+
+#toggle:checked ~ dialog {
+ display: block;
+}
+
+
+label{
+ background: #5c00e6;
+ color: #ffffff;
+ padding: 2.5px 5px;
+ border-radius: 4px;
+ text-align: right;
+}
+@-webkit-keyframes appear {
+  0%{
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+}
+@keyframes appear {
+  0%{
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+}
+
+dialog{
+ animation: appear 350ms ease-in-out 1;
+ max-width: 99%;
+ text-align: right;
+ font-size: small;
+ background-color: #ffff00;
+ padding: 7px 17px 7px 7px;
+ position: fixed;
+ top: 7%;
+ bottom: 1%;
+ border: 2% solid purple;
+ z-index: 9;
+}

@@ -1,0 +1,14 @@
+<p style="
+ font-size: 12px;
+ text-align: justify;
+ text-justify: inter-word;
+ word-wrap: break-word
+ align: top;
+ width: 100%;
+ padding: -2px -2px -2px -2px;
+ clear: both;
+ color: brown;
+ ">
+This website is maintained by Jeremi "ErtYwek" and I publish there helpful tools.
+
+</p>

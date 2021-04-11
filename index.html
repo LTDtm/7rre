@@ -112,7 +112,6 @@ Similar navbar effect can be made with a lot 'less' code using bootstrap and jQu
 h1 {
   text-align: center;
   font-family: 'Lato', sans-serif;
-  font-size: 25px;
   line-height: 32px;
   padding-top: 70px;
 }
@@ -138,7 +137,6 @@ h1 a {
 }
 .price-table-wrapper .pricing-table__header {
   padding: 20px;
-  font-size: 20px;
   color: #909090;
   background: #B9F8FF;
 }
@@ -146,7 +144,6 @@ h1 a {
   color: #66CCCC;
   padding: 20px;
   margin: auto;
-  font-size: 40px;
   font-weight: 500;
 }
 .price-table-wrapper .pricing-table__button {
@@ -177,7 +174,6 @@ h1 a {
   content: '>';
   top: 0;
   right: 0;
-  font-size: 25px;
   padding: 15px;
   padding-right: 40px;
   color: white;
@@ -307,15 +303,33 @@ li a:hover, .dropdown:hover .dropbtn {
 
 																			/*THERE IS THE PADDING COLORS AND BASIC POINTS OF DESIGN STYLES*/
 body {
+@media screen and (max-width: 599px) {
+	font-size: 11px;
+}
+@media screen and (max-width: 1024px) {
+	font-size: 13px;
+}
+@media screen and (max-width: 1920px) {
+	font-size: 16px;
+}
+@media screen and (max-width: 2560px) {
+	font-size: 19px;
+}
+@media screen and (max-width: 3840px) {
+	font-size: 22px;
+}
+@media screen and (max-width: 7680px) {
+	font-size: 25px;
+}
  margin: 0;
  font-family: 'Trebuchet MS', Helvetica, sans-serif;
- background-color: #735e7a; /*bg color*/
+ background-color: #735e7a; /*bg body color*/
  color: #ffffff;
 }
 
 .maintab {
  color: #FFFF24;
- font-size: 20px;
+ /*font-size: 20px;*/
  text-align: justify;
  align: top;
  width: 100%;
@@ -328,7 +342,7 @@ body {
 
 .main {
  color: #FFFF24;
- font-size: 20px;
+ /*font-size: 20px;*/
  text-align: center;
  text-justify: inter-word;
  word-wrap: break-word
@@ -371,7 +385,6 @@ body {
 }
 											/* its for small notes under news content "source" */
 sm {
-  font-size: 12px;
   color: #9494b8;
 }
 
@@ -459,7 +472,6 @@ body {font-family: "Lato", sans-serif;}
   text-align: center;
   cursor: pointer;
   transition: 0.4s;
-  font-size: 17px;
 }
 
 
@@ -494,7 +506,7 @@ body {font-family: "Lato", sans-serif;}
   position: relative;
   z-index: 5;
   color: #000;
-  font-size: 400%;
+  /*font-size: 400%;*/
   padding: 20px;
 }
 

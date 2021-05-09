@@ -41,5 +41,3 @@ function loadDoc() {
   xhttp.open("GET", "https://7r.re/styles/footer.html", true);
   xhttp.send();
 }
-
-#object.onload = function(){loadDoc()};

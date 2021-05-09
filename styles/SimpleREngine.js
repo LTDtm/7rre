@@ -10,8 +10,6 @@ function openCity(evt, cityName) {
   }
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
-  // Get the element with id="defaultOpen" and click on it
-  document.getElementById("defaultOpen").click();
 }
 
 function openPage(evt, cityName) {
@@ -26,6 +24,9 @@ function openPage(evt, cityName) {
   }
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
-  // Get the element with id="PageDefaultOpen" and click on it
-  document.getElementById("PageDefaultOpen").click();
+}
+
+function {
+	document.getElementById("defaultOpen").click();
+	document.getElementById("PageDefaultOpen").click();
 }

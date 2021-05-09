@@ -339,9 +339,8 @@ Donec eleifend, magna in posuere ultricies, augue odio cursus diam, non molestie
 <div class="divTableRow">
 	<div class="divTableCell">
 
-		<div class="footerty">
+		<div id="xml_http_REquest" class="footerty">
 			<label onclick="loadDoc()" for="toggle">About ZOJ.ME</label>
-			<p id="xml_http_REquest"></p>
 		</div>
 
 	</div>
@@ -361,7 +360,7 @@ function loadDoc() {
       this.responseText;
     }
   };
-  xhttp.open("GET", "https://7r.re/styles/Footer.html", true);
+  xhttp.open("GET", "https://7r.re/styles/footer/", true);
   xhttp.send();
 }
 </script>

@@ -1,4 +1,4 @@
-object.onload = function(){loadDoc()};
+
 function loadDoc() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
@@ -10,3 +10,5 @@ function loadDoc() {
   xhttp.open("GET", "https://7r.re/styles/footer.html", true);
   xhttp.send();
 }
+
+#object.onload = function(){loadDoc()};

@@ -26,5 +26,3 @@ function openPage(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 
-document.getElementById("defaultOpen").click();
-document.getElementById("PageDefaultOpen").click();

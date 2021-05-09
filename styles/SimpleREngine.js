@@ -26,7 +26,5 @@ function openPage(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 
-function {
-	document.getElementById("defaultOpen").click();
-	document.getElementById("PageDefaultOpen").click();
-}
+document.getElementById("defaultOpen").click();
+document.getElementById("PageDefaultOpen").click();

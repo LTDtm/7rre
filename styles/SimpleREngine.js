@@ -1,4 +1,4 @@
-window.onclick = function openCity(evt, cityName) {
+function openCity(evt, cityName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
@@ -14,7 +14,7 @@ window.onclick = function openCity(evt, cityName) {
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
 
-window.onclick = function openPage(evt, cityName) {
+function openPage(evt, cityName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("pagecontent");
   for (i = 0; i < tabcontent.length; i++) {

@@ -339,7 +339,7 @@ Donec eleifend, magna in posuere ultricies, augue odio cursus diam, non molestie
 <div class="divTableRow">
 	<div class="divTableCell">
 
-		<div id="xml_http_REquest" onload="loadDoc()" class="footerty">
+		<div id="xml_http_REquest" onclick="loadDoc()" class="footerty">
 			All Rights Reserved © <a target="_blank" href="https://7r.re/about/">7R.RE Developers</a> | Designed by <a target="_blank" href="https://www.linkedin.com/in/ertywek/">Jeremi</a>.
 		</div>
 		
@@ -352,7 +352,7 @@ Donec eleifend, magna in posuere ultricies, augue odio cursus diam, non molestie
 
 														<!-- S	C	R	I	P	T	S -->
 <script>
-function loadDoc() {
+window.onload = function loadDoc() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
@@ -364,7 +364,39 @@ function loadDoc() {
   xhttp.send();
 }
 </script>
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
 
+function openPage(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("pagecontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("pagelink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+// Get the element with id="PageDefaultOpen" and click on it
+document.getElementById("PageDefaultOpen").click();
+</script>
 
 </body>
 </html>

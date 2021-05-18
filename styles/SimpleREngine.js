@@ -37,13 +37,13 @@ window.onload = function loadDoc() {
   };
   xhttp.open("GET", "https://7r.re/styles/footer.html", true);
   xhttp.send();
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
+  var xhttp2 = new XMLHttpRequest();
+  xhttp2.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
       document.getElementById("xmlhttp_topnav").innerHTML =
       this.responseText;
     }
   };
-  xhttp.open("GET", "https://7r.re/styles/TopNav.html", true);
-  xhttp.send();
+  xhttp2.open("GET", "https://7r.re/styles/TopNav.html", true);
+  xhttp2.send();
 }

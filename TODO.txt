@@ -1,1 +1,1 @@
-Zrób aby ikony były responsywne i nie wchodziły do nowej linii przy powiększaniu.
+Zrób aby ikony[i textarea] były responsywne i nie wchodziły do nowej linii przy powiększaniu.

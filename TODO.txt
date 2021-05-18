@@ -1,1 +1,1 @@
-Zrób aby dezajn był responsywny dla ekranów 4K UHD tv. (Szczególnie czcionka do 3840 × 2160)
+Zrób aby ikony były responsywne i nie wchodziły do nowej linii przy powiększaniu.

@@ -31,11 +31,11 @@ window.onload = function loadDoc() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      document.getElementById("xmlhttp_topnav").innerHTML =
+      document.getElementById("xmlhttp_footer1").innerHTML =
       this.responseText;
     }
   };
-  xhttp.open("GET", "https://7r.re/styles/TopNav.html", true);
+  xhttp.open("GET", "https://7r.re/styles/footer.html", true);
   xhttp.send();
 }
 
@@ -43,10 +43,10 @@ window.onload = function loadDoc() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      document.getElementById("xmlhttp_footer1").innerHTML =
+      document.getElementById("xmlhttp_topnav").innerHTML =
       this.responseText;
     }
   };
-  xhttp.open("GET", "https://7r.re/styles/footer.html", true);
+  xhttp.open("GET", "https://7r.re/styles/TopNav.html", true);
   xhttp.send();
 }

@@ -37,9 +37,6 @@ window.onload = function loadDoc() {
   };
   xhttp.open("GET", "https://7r.re/styles/footer.html", true);
   xhttp.send();
-}
-
-window.onload = function loadDoc() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {

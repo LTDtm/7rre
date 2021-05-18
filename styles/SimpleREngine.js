@@ -1,17 +1,4 @@
 
-
-window.onload = function loadDoc() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      document.getElementById("xml_http_REquest2").innerHTML =
-      this.responseText;
-    }
-  };
-  xhttp.open("GET", "https://7r.re/styles/topnav.html", true);
-  xhttp.send();
-}
-
 function openCity(evt, cityName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -24,6 +11,18 @@ function openCity(evt, cityName) {
   }
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
+}
+
+window.onload = function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("xml_http_REquest2").innerHTML =
+      this.responseText;
+    }
+  };
+  xhttp.open("GET", "https://7r.re/styles/TopNav.html", true);
+  xhttp.send();
 }
 
 function openPage(evt, cityName) {

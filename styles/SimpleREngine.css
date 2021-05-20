@@ -340,8 +340,8 @@ body {
 .footer-gitbadge {
  text-align: right;
  display: inline;
- margin-top: -5px;
- margin-bottom: -5px;
+ margin-top: -2px;
+ margin-bottom: -2px;
  margin-left: auto;
  margin-right: auto;
  clear: both;

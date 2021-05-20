@@ -299,6 +299,16 @@ body {
  letter-spacing: 0.035em;
 }
 
+.bottomcloud {
+ background-color: #004d41;          /* bg footer color */
+ color: #ffffff;
+ text-align: center;
+ font-weight: bold;
+ width: 100%;
+ padding: 4px 0 3px 0;
+ position: relative;
+}
+
 .footerty {
  background-color: #00332b;          /* bg footer color */
  color: #ffffff;

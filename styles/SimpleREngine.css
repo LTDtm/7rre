@@ -300,6 +300,8 @@ body {
 }
 
 .bottomcloud {
+ display: inline-block;
+ 
  background-color: #00332b;          /* bg footer color */
  color: #ffffff;
  text-align: center;

@@ -280,7 +280,7 @@ body {
  width: 100%;
  text-shadow: 1px 1px 9px #f9f91f;
  padding: 0 0 1% 0;
- word-wrap: break-word;
+ text-justify: inter-word;
  clear: both;
 }
 

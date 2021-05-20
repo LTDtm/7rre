@@ -302,6 +302,7 @@ body {
 .bottomcloud {
 	background-color: #00332b;          /* bg bottomcloud color */
  margin: auto;
+ flex-direction: row;
  vertical-align: middle;
  color: #ffffff;
  text-align: center;

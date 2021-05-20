@@ -286,46 +286,31 @@ body {
 
 .main {
  color: #1a1a00;
- /*font-size: 20px;*/
  text-align: center;
  text-justify: inter-word;
  word-wrap: break-word;
- align: top;
+ /*align: top;*/
  width: 100%;
  text-shadow: 1px 1px 9px #f9f91f;
  padding: 0 1% 1% 1%;
  clear: both;
  letter-spacing: 0.035em;
 }
-/*
-.bottomcloud {
-	background-color: #00332b;          /* bg bottomcloud color 
- margin: auto;
- display: flex;
- flex-direction: row;
- vertical-align: middle;
- white-space: nowrap;
-	line-height: 12px;
-	overflow: hidden;
- color: #ffffff;
- text-align: center;
- font-weight: bold;
- width: 100%;
- padding: 4px 0 3px 0;
- position: relative;
-}
-*/
-.flex-container {
+
+.fundament {
   display: flex;
   flex-wrap: nowrap;
+  background-color: #00332b;          /* bg fundament color */
+  color: #ffffff;
 }
 
-.flex-container > div {
+.fundament > div {
   width: 100%;
-  margin: 10px;
+  margin: 10%;
   text-align: center;
   line-height: 75px;
-  font-size: 30px;
+  background-color: #00332b;          /* bg fundament>div color */
+  color: #ffffff;
 }
 
 .footerty {

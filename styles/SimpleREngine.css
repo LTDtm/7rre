@@ -336,6 +336,19 @@ body {
  max-width: 400px;
  height: auto;
 }
+
+.footer-gitbadge {
+ text-align: right;
+ display: inline;
+ margin-top: -5px;
+ margin-bottom: -5px;
+ margin-left: auto;
+ margin-right: auto;
+ clear: both;
+ max-width: 400px;
+ height: auto;
+}
+
 											/* its for small notes under news content "source" */
 sm {
   color: #9494b8;

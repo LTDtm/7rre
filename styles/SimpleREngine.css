@@ -396,6 +396,7 @@ a:active {
 }
 .divTableRow {
 	display: table-row;
+	width: 100%
 }
 .divTableHeading {
 	display: table-header-group;

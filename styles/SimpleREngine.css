@@ -301,8 +301,9 @@ body {
 
 .bottomcloud {
  display: inline-block;
- 
- background-color: #00332b;          /* bg footer color */
+ left: 50%;
+ transform: translate(-50%, -50%);
+ background-color: #00332b;          /* bg bottomcloud color */
  color: #ffffff;
  text-align: center;
  font-weight: bold;

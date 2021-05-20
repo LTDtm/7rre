@@ -305,6 +305,9 @@ body {
  display: flex;
  flex-direction: row;
  vertical-align: middle;
+ white-space: nowrap;
+	line-height: 12px;
+	overflow: hidden;
  color: #ffffff;
  text-align: center;
  font-weight: bold;

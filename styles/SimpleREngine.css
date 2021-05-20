@@ -300,9 +300,9 @@ body {
 }
 
 .bottomcloud {
- display: inline-block;
+ margin: auto;
+ display: none;
  left: 50%;
- transform: translate(-50%, -50%);
  background-color: #00332b;          /* bg bottomcloud color */
  color: #ffffff;
  text-align: center;
@@ -403,7 +403,7 @@ a:active {
 }
 .divTableCell, .divTableHead {
 	border: 0px solid #999999;
-	display: table-cell;
+	display: table-cell;														/* DELETE OR NO */
 }
 .divTableHeading {
 	display: table-header-group;

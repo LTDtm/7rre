@@ -306,7 +306,7 @@ body {
 
 .fundament > div {
   width: 100%;
-  margin: 10px;
+  margin: 10% 10px 10% 10px;
   text-align: center;
   line-height: 7%;
   background-color: #00332b;          /* bg fundament>div color */

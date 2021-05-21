@@ -465,7 +465,7 @@ body {font-family: "Lato", sans-serif;}
   padding: 20px;
 }
 
-.bottomlink:link {
+.bottomlink {
   display: inline-block;
   border-radius: 4px;
   background-color: #f4511e;
@@ -474,11 +474,11 @@ body {font-family: "Lato", sans-serif;}
   text-align: center;
   padding: 20px;
   width: 200px;
-  transition: all 0.5s;
+  transition: all 1.5s;
   cursor: pointer;
 }
 
-.bottomlink {
+.bottomlink:link {
   background-color: white;
   color: black;
   border: 2px solid #555555;

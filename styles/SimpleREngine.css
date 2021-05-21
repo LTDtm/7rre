@@ -465,7 +465,7 @@ body {font-family: "Lato", sans-serif;}
   padding: 20px;
 }
 
-.bottomlink:link {
+.bottomlink {
 	background-color: #224441;
 	color: #FFFFFF;
 	border: 2px solid #FFFFFF;

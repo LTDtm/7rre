@@ -300,7 +300,7 @@ body {
 .fundament {
   display: flex;
   flex-wrap: nowrap;
-  background-color: #2a3c3a;          /* bg fundament color */
+  background-color: #224441;          /* bg fundament color */
   color: #ffffff;
 }
 
@@ -309,7 +309,7 @@ body {
   margin: 3.7% 5px 3.7% 5px;
   text-align: center;
   line-height: 7%;
-  background-color: #547874;          /* bg fundament>div color */
+  background-color: #224441;          /* bg fundament>div color */
   word-wrap: break-word;
   color: #ffffff;
 }

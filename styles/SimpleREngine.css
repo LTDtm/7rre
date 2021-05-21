@@ -480,27 +480,13 @@ body {font-family: "Lato", sans-serif;}
   margin: 5px;
 }
 
-.bottomlink span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+.bottomlink {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
 }
 
-.bottomlink span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.bottomlink:hover span {
-  padding-right: 25px;
-}
-
-.bottomlink:hover span:after {
-  opacity: 1;
-  right: 0;
+.bottomlink:hover {
+  background-color: #555555;
+  color: white;
 }

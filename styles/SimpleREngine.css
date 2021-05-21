@@ -476,5 +476,6 @@ body {font-family: "Lato", sans-serif;}
 .bottomlink:hover {
 	background-color: #FFFFFF;
 	color: #224441;
+	border: 2px solid #224441;
 	transition: all 1.5s;
 }

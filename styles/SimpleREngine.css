@@ -466,15 +466,15 @@ body {font-family: "Lato", sans-serif;}
 }
 
 .bottomlink:link {
-	background-color: white;
-	color: black;
-	border: 2px solid #555555;
+	background-color: #224441;
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
 	transition: all 1.5s;
 	cursor: pointer;
 }
 
 .bottomlink:hover {
-	background-color: #555555;
-	color: white;
+	background-color: #FFFFFF;
+	color: #224441;
 	transition: all 1.5s;
 }

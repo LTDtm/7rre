@@ -464,7 +464,7 @@ body {font-family: "Lato", sans-serif;}
   padding: 20px;
 }
 
-.a:link {
+a:link {
   display: inline-block;
   border-radius: 4px;
   background-color: #f4511e;
@@ -479,14 +479,14 @@ body {font-family: "Lato", sans-serif;}
   margin: 5px;
 }
 
-.a span {
+a span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.a span:after {
+a span:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -495,11 +495,11 @@ body {font-family: "Lato", sans-serif;}
   transition: 0.5s;
 }
 
-.a:hover span {
+a:hover span {
   padding-right: 25px;
 }
 
-.a:hover span:after {
+a:hover span:after {
   opacity: 1;
   right: 0;
 }

@@ -465,7 +465,7 @@ body {font-family: "Lato", sans-serif;}
   padding: 20px;
 }
 
-a:link {
+.bottomlink:link {
   display: inline-block;
   border-radius: 4px;
   background-color: #f4511e;
@@ -480,14 +480,14 @@ a:link {
   margin: 5px;
 }
 
-a span {
+.bottomlink span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-a span:after {
+.bottomlink span:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -496,15 +496,11 @@ a span:after {
   transition: 0.5s;
 }
 
-a:hover span {
+.bottomlink:hover span {
   padding-right: 25px;
 }
 
-a:hover span:after {
+.bottomlink:hover span:after {
   opacity: 1;
   right: 0;
-}
-
-.bottomlink {
-	display: inherit;
 }

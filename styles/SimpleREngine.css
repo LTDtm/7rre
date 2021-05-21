@@ -132,7 +132,7 @@ ul.topnav li a {
   display: block;
   color: #5200cc;												/* text topnav li color */
   text-align: center;
-  transition: all 0.5s;
+  transition: all 1.3s;
   text-decoration: none;
 }
 
@@ -472,12 +472,10 @@ body {font-family: "Lato", sans-serif;}
   border: none;
   color: #FFFFFF;
   text-align: center;
-  font-size: 28px;
   padding: 20px;
   width: 200px;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 5px;
 }
 
 .bottomlink {

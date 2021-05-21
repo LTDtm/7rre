@@ -479,3 +479,27 @@ body {font-family: "Lato", sans-serif;}
 	border: 2px solid #224441;
 	transition: all 1.5s;
 }
+
+/* unvisited link */
+a:link {
+ color: #ffcccc;
+ text-decoration: none;
+}
+/* visited link */
+a:visited {
+ color: #ffcccc;
+}
+/* mouse over link */
+a:hover {
+ color: #ff4d4d;
+ background-color: #96d1f8;
+ cursor: pointer;
+ text-decoration: underline;
+}
+/* selected link */
+a:active {
+ box-shadow: none;
+ top: 5px;
+}
+
+/* kiedy kurwa ja to dokończe */

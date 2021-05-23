@@ -165,8 +165,8 @@ li a:hover, .dropdown:hover .dropbtn {
 }
 
 input[type:text] {
-	width: 100%;
-	padding: 12px 20px;
+	width: 120%;
+	padding: 12em 20em;
 	border-radius: 4px;
 	box-sizing: border-box;
 }

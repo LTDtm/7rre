@@ -127,7 +127,7 @@ ul.topnav {
 ul.topnav li {float: left;border-right: 0px solid #004d00;}
 
 ul.topnav li:last-child {border-right: none;}
-
+																/* pagelink */
 ul.topnav li a {
   display: block;
   color: #5200cc;												/* text topnav li color */
@@ -467,7 +467,7 @@ body {font-family: "Lato", sans-serif;}
 
 .bottomlink {
 	background-color: #224441;
-	color: #FFFFFF;
+	color: #FFFFFF !important;
 	border: 2px solid #FFFFFF;
 	transition: all 1.5s;
 	cursor: pointer;
@@ -475,7 +475,7 @@ body {font-family: "Lato", sans-serif;}
 
 .bottomlink:hover {
 	background-color: #FFFFFF;
-	color: #224441;
+	color: #224441 !important;
 	border: 2px solid #224441;
 	transition: all 1.5s;
 }
@@ -502,4 +502,4 @@ a:active {
  top: 5px;
 }
 
-/* kiedy kurwa ja to dokończe */
+/* kiedy kurwa ja to dokoncze */

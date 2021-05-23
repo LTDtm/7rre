@@ -164,6 +164,13 @@ li a:hover, .dropdown:hover .dropbtn {
   background-color: #00ccad;									/* bg hover topnav li color */
 }
 
+input[type:text] {
+	width: 100%;
+	padding: 12px 20px;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
 /* this was deleted cause it does text a align left /li.dropdown {
   display: inline-block;
 }*/

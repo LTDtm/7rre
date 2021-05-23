@@ -164,12 +164,6 @@ li a:hover, .dropdown:hover .dropbtn {
   background-color: #00ccad;									/* bg hover topnav li color */
 }
 
-input[type:text] {
-	width: 120%;
-	padding: 12em 20em;
-	border-radius: 4px;
-	box-sizing: border-box;
-}
 
 /* this was deleted cause it does text a align left /li.dropdown {
   display: inline-block;
@@ -197,6 +191,13 @@ input[type:text] {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.searchform {
+	float: center;
+	border-style: none;
+	height: 100%;
+	width: 100%
+}
 										/* media query (I don't use viewport from css3 cause it's hard to control scaling with it) */
 @media screen and (max-width: 599px) {
 	body {
@@ -211,6 +212,12 @@ input[type:text] {
 		padding: 8px 10px;
 	}
 	
+	input[type:text] {
+		width: 100%;
+		padding: 120px 200px;
+		border-radius: 8px;
+		box-sizing: border-box;
+	}
 }
 @media screen and (min-width: 600px) {
 	body {
@@ -223,6 +230,13 @@ input[type:text] {
 	}
 	ul.topnav li a {
 		padding: 12px 14px;
+	}
+	
+	input[type:text] {
+		padding: 12em 20em;
+		border-radius: 4px;
+		box-sizing: border-box;
+		height:100%
 	}
 }
 @media screen and (min-width: 1999px) {

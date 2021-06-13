@@ -296,6 +296,9 @@ form.topnavsform {
 	ul.topnav li a {
 		padding: 38px 40px;
 	}
+	img.topnavsformims {
+		width: 1.3em;
+	}
 }
 @media screen and (min-width: 4999px) {
 	body {

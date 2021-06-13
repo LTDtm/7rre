@@ -228,6 +228,9 @@ form.topnavsform {
 		box-sizing: border-box;
 		font-size: inherit;
 	}
+	img.topnavsformims {
+		width: 1.3em;
+	}
 }
 @media screen and (min-width: 600px) {
 	body {
@@ -251,6 +254,9 @@ form.topnavsform {
 		font-size: inherit;
 		margin: -0.5em -0.1em -0.5em -0.5em;
 	}
+	img.topnavsformims {
+		width: 1.3em;
+	}
 }
 @media screen and (min-width: 1999px) {
 	body {
@@ -267,6 +273,9 @@ form.topnavsform {
 		box-sizing: border-box;
 		font-size: inherit;
 	}
+	img.topnavsformims {
+		width: 2.3em;
+	}
 }
 @media screen and (min-width: 2999px) {
 	body {
@@ -274,6 +283,9 @@ form.topnavsform {
 	}
 	ul.topnav li a {
 		padding: 30px 32px;
+	}
+	img.topnavsformims {
+		width: 8.3em;
 	}
 	
 }

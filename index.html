@@ -1,362 +1,342 @@
-<!-- JEREMI PROJECT "7R.RE" -->
+<!-- ERTY DROPPIN' BASSS DEMONS MANIPULATE YOU -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
-<!--    R	E	A	D	M	E
-Similar navbar effect can be made with a lot 'less' code using bootstrap and jQuery https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_navbar_collapse
-
-#5900b3
-
- TO DO
- https://infosec.mozilla.org/guidelines/web_security#subresource-integrity
- 
- Zrób aby ikony[i textarea] były responsywne i nie wchodziły do nowej linii przy powiększaniu.
-
--->
 
 <head>
 <meta charset="UTF-8">
-<meta name="description" content="7R.RE New technologies, top blogs, product reviews and ERTYWEK!">
+<meta name="description" content="ZOJ.ME New technologies, top blogs, product reviews and ERTYWEK!">
 <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-<meta name="author" content="Jeremi ErtYwek HATTAH">
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-<!--<meta http-equiv="refresh" content="300">-->
-<meta http-equiv="Cache-control" content="public">
-<meta http-equiv="Content-Security-Policy" content="default-src https: 'unsafe-eval' 'unsafe-inline'; object-src 'none'; frame-ancestors 'self'">
-
-<link rel="canonical" href="https://7r.re/" />
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-<!-- ****** faviconit com ****** -->
-	<link rel="shortcut icon" href="/favicon.ico">
-	<link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
-	<link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png">
-	<link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
-	<link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
-	<link rel="apple-touch-icon" href="/favicon-57.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/favicon-60.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
-	<meta name="msapplication-TileColor" content="#FFFFFF">
-	<meta name="msapplication-TileImage" content="/favicon-144.png">
-	<meta name="msapplication-config" content="/browserconfig.xml">
-<!-- ****** faviconit com ****** -->
-<link rel="stylesheet" type="text/css" href="https://7r.re/styles/SimpleREngine.css" />
-
-	<!--
-<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
--->
-
-<title>7RRE Services</title>
-
+<meta name="author" content="Jeremi ErtYwek Ertywowzki">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="refresh" content="150"> <!-- RELOAD -->
+<link rel="stylesheet" href="normalize.min.css">
 														<!-- S	T	Y	L	E -->
+
+
 <style>
-									/*trzeba zmienić skrypt js a konkretnie klase class*/
-.tl1:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: url(styles/posts/matrixworldmap.jpg) top center;
-    opacity: .3;
+ body {
+  color: snow;
 }
-.tl2:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: url(styles/posts/matrixworldmap.jpg) top center;
-    opacity: .3;
+
+span {
+  -webkit-animation: glow 2s ease-in-out both infinite;
+          animation: glow 2s ease-in-out both infinite;
 }
-.tl3:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: url(styles/posts/matrixworldmap.jpg) top center;
-    opacity: .3;
+span:nth-child(1) {
+  -webkit-animation-delay: -0.2857142857s;
+          animation-delay: -0.2857142857s;
 }
-.tl4:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: url(styles/posts/matrixworldmap.jpg) top center;
-    opacity: .3;
+span:nth-child(2) {
+  -webkit-animation-delay: -0.5714285714s;
+          animation-delay: -0.5714285714s;
 }
-.tl5:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: url(styles/posts/matrixworldmap.jpg) top center;
-    opacity: .3;
+span:nth-child(3) {
+  -webkit-animation-delay: -0.8571428571s;
+          animation-delay: -0.8571428571s;
+}
+span:nth-child(4) {
+  -webkit-animation-delay: -1.1428571429s;
+          animation-delay: -1.1428571429s;
+}
+span:nth-child(5) {
+  -webkit-animation-delay: -1.4285714286s;
+          animation-delay: -1.4285714286s;
+}
+span:nth-child(6) {
+  -webkit-animation-delay: -1.7142857143s;
+          animation-delay: -1.7142857143s;
+}
+span:nth-child(7) {
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
+}
+
+@-webkit-keyframes glow {
+  0%, 100% {
+    text-shadow: 0 0 8.3333333333px snow, 0 -25px 50px tomato, -25px 25px 50px yellow, 25px 25px 50px tomato;
+  }
+  33% {
+    text-shadow: 0 0 8.3333333333px snow, 0 -25px 50px cyan, -25px 25px 50px tomato, 25px 25px 50px cyan;
+  }
+  66% {
+    text-shadow: 0 0 8.3333333333px snow, 0 -25px 50px yellow, -25px 25px 50px cyan, 25px 25px 50px yellow;
+  }
+}
+
+@keyframes glow {
+  0%, 100% {
+    text-shadow: 0 0 8.3333333333px snow, 0 -25px 50px tomato, -25px 25px 50px yellow, 25px 25px 50px tomato;
+  }
+  33% {
+    text-shadow: 0 0 8.3333333333px snow, 0 -25px 50px cyan, -25px 25px 50px tomato, 25px 25px 50px cyan;
+  }
+  66% {
+    text-shadow: 0 0 8.3333333333px snow, 0 -25px 50px yellow, -25px 25px 50px cyan, 25px 25px 50px yellow;
+  }
 }
 </style>
+<style>
+body {
+background: linear-gradient(178deg, #4e0a90, #253c05, #879008);
+background-size: 600% 600%;
 
-<script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101308514);</script>
+-webkit-animation: erty 5s ease infinite;
+-moz-animation: erty 5s ease infinite;
+-o-animation: erty 5s ease infinite;
+animation: erty 5s ease infinite;
+
+@-webkit-keyframes erty {
+    0%{background-position:56% 0%}
+    50%{background-position:45% 100%}
+    100%{background-position:56% 0%}
+}
+@-moz-keyframes erty {
+    0%{background-position:56% 0%}
+    50%{background-position:45% 100%}
+    100%{background-position:56% 0%}
+}
+@-o-keyframes erty {
+    0%{background-position:56% 0%}
+    50%{background-position:45% 100%}
+    100%{background-position:56% 0%}
+}
+@keyframes erty {
+    0%{background-position:56% 0%}
+    50%{background-position:45% 100%}
+    100%{background-position:56% 0%}
+}
+}
+</style>
+<style>
+  body {
+  font-family: "Century Gothic", 'Lato', sans-serif;
+  background-color: #246b1a;
+}
+
+a {
+  text-decoration: none;
+}
+
+.et-hero-tabs,
+.et-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  /*background: #a3a375; 														 background color */
+  text-align: center;
+  padding: 0 2em;
+}
+.et-hero-tabs h1,
+.et-slide h1 {
+  font-size: 2rem;
+  margin: 0;
+  letter-spacing: 1rem;
+}
+.et-hero-tabs h3,
+.et-slide h3 {
+  font-size: 1rem;
+  letter-spacing: 0.3rem;
+  opacity: 0.6;
+}
+
+.et-hero-tabs-container {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  z-index: 10;
+}
+.et-hero-tabs-container--top {
+  position: fixed;
+  top: 0;
+}
+
+.et-hero-tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  color: #000;
+  letter-spacing: 0.1rem;
+  transition: all 0.5s ease;
+  font-size: 0.8rem;
+}
+.et-hero-tab:hover {
+  color: white;
+  background: rgba(102, 177, 241, 0.8);
+  transition: all 0.5s ease;
+}
+
+.et-hero-tab-slider {
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 6px;
+  background: #66B1F1;
+  transition: left 0.3s ease;
+}
+
+@media (min-width: 800px) {
+  .et-hero-tabs h1,
+  .et-slide h1 {
+    font-size: 3rem;
+  }
+  .et-hero-tabs h3,
+  .et-slide h3 {
+    font-size: 1rem;
+  }
+
+  .et-hero-tab {
+    font-size: 1rem;
+  }
+}
+</style>
+<script>
+  window.console = window.console || function(t) {};
+</script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+<script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101213734);</script>
 <script async src="//static.getclicky.com/js"></script>
-
-<script type="text/javascript" src="https://7r.re/styles/SimpleREngine.js"></script>
 </head>
 <body>
 														<!-- B	O	D	Y -->
 
 														<!-- H	E	A	D	E	R -->
-<ul id="xmlhttp_topnav" class="topnav">
-	
-	<li><div><a class="pagelink active" onclick="openPage(event, 'page1')" id="PageDefaultOpen" href="#">Home</a></div></li>
-	<li><div><a class="pagelink" onclick="openPage(event, 'page2')" href="#p=ab">About</a></div></li>
-	<!--<li><div><a class="pagelink" onclick="openPage(event, 'page3')" href="#p=sc">Services</a></div></li>-->
-	<li><div><a class="pagelink" href="https://7r.re/scripts/">Articles</a></div></li>
-	<!--<li class="dropdown"><a href="#p=" class="dropbtn">Mobile Only</a>
-		<div class="dropdown-content"><a class="pagelink" onclick="openPage(event, 'page3')" href="#p=sc">Mobile related</a></div>
-	</li>-->
-
-	<li class="right">
-		<div style="height: 98%">
-			<a>
-				<form class="topnavsform" method="get" action="https://www.google.com/custom" target="google_window">
-					<input type="hidden" name="domains" value="7r.re">
-					<input class="topnavsformta" type="text" name="q" placeholder="Search on *.7r.re/*" maxlength="255" value="">
-					<input type="hidden" type="radio" name="sitesearch" value="">
-					<input type="hidden" type="radio" name="sitesearch" value="7r.re" checked="checked">
-					<input class="topnavsformims" type="image" name="sa" src="styles/search_db25x.png" value="Search">
-				</form>
-			</a>
-		</div>
-	</li>
-	
-</ul>
 
 
-
-
-<div class="divTable">
-
-
-
-<div class="divTableBody">
-<div class="divTableRow">
-
-	<div class="divTableCell">
-
-	<div id="jobs"> <!-- pagecontent begin div-->
-
-														<div id="page1" class="pagecontent"><!-- page1 begin -->
-
-	<!-- NEWS MAINTAB DIV -->
-<div id="jeden" class="maintab">
-	<div class="tab">
-		<div class="tablinks tl1" onclick="openCity(event, '1')" id="defaultOpen">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla pharetra pretium
-		</div>
-		<div class="tablinks tl2" onclick="openCity(event, '2')">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla pharetra pretium
-		</div>
-		<div class="tablinks tl3" onclick="openCity(event, '3')">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla pharetra pretium
-		</div>
-		<div class="tablinks tl4" onclick="openCity(event, '4')">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla pharetra pretium
-		</div>
-		<div class="tablinks tl5" onclick="openCity(event, '5')">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla pharetra pretium
-		</div>
+<section class="et-hero-tabs">
+	<h1>
+<span>7</span><span>R</span><span>.</span><span>r</span><span>e</span>
+	</h1>
+	<div class="et-hero-tabs-container">
+		<a class="et-hero-tab" href="#tab-es6">Our team</a>
+		<a class="et-hero-tab" href="#tab-flexbox">Data Storage</a>
+		<a class="et-hero-tab" href="#tab-react">Mirror services</a>
+		<a class="et-hero-tab" href="#tab-angular">Free subdomains</a>
+		<a class="et-hero-tab" href="#tab-other">Other</a>
+		<span class="et-hero-tab-slider"></span>
 	</div>
-	<!-- Force is sometimes the only effective and available tool for doing changes. -->
-	<div id="1" class="tabcontent">
-		<img class="imgintab" width="280vw" src="styles/posts/matrixworldmap.jpg">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla pharetra pretium. Morbi malesuada enim vitae libero convallis, vitae tincidunt mi mollis. Donec in fringilla tellus. Cras varius dapibus eleifend. Morbi ultricies metus sed tortor molestie, id tincidunt urna maximus. Sed vel dapibus velit. Nam hendrerit nec erat eget gravida. Nunc viverra quis est quis malesuada. Etiam id nisl ut massa venenatis viverra. Vestibulum sollicitudin risus eget nibh mollis tincidunt. Vivamus a quam congue, fermentum enim quis, varius nisi. Aliquam nec metus enim.
+</section>
 
-Nullam viverra nisi ut velit posuere fringilla. Vestibulum gravida eu tortor et volutpat. Cras congue, erat a mollis mattis, neque dui faucibus erat, id efficitur quam nisi at arcu. Sed in commodo ipsum. Vivamus at euismod nulla, non ullamcorper ipsum. Sed non sollicitudin mi, id pharetra mauris. Sed commodo nulla eros, sed gravida nisi auctor et. Quisque at dapibus augue, at accumsan nunc.
-
-		<a href="https://7r.re/scripts/0000001/" target="_blank">Read More >></a>
-	</div>
-	<div id="2" class="tabcontent">
-		<img class="imgintab" width="280vw" src="styles/posts/matrixworldmap.jpg">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla pharetra pretium. Morbi malesuada enim vitae libero convallis, vitae tincidunt mi mollis. Donec in fringilla tellus. Cras varius dapibus eleifend. Morbi ultricies metus sed tortor molestie, id tincidunt urna maximus. Sed vel dapibus velit. Nam hendrerit nec erat eget gravida. Nunc viverra quis est quis malesuada. Etiam id nisl ut massa venenatis viverra. Vestibulum sollicitudin risus eget nibh mollis tincidunt. Vivamus a quam congue, fermentum enim quis, varius nisi. Aliquam nec metus enim.
-
-Nullam viverra nisi ut velit posuere fringilla. Vestibulum gravida eu tortor et volutpat. Cras congue, erat a mollis mattis, neque dui faucibus erat, id efficitur quam nisi at arcu. Sed in commodo ipsum. Vivamus at euismod nulla, non ullamcorper ipsum. Sed non sollicitudin mi, id pharetra mauris. Sed commodo nulla eros, sed gravida nisi auctor et. Quisque at dapibus augue, at accumsan nunc.
-		<a href="https://7r.re/scripts/0000002/" target="_blank">Read More >></a>
-	</div>
-	<div id="3" class="tabcontent">
-		<img class="imgintab" width="280vw" src="styles/posts/matrixworldmap.jpg">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla pharetra pretium. Morbi malesuada enim vitae libero convallis, vitae tincidunt mi mollis. Donec in fringilla tellus. Cras varius dapibus eleifend. Morbi ultricies metus sed tortor molestie, id tincidunt urna maximus. Sed vel dapibus velit. Nam hendrerit nec erat eget gravida. Nunc viverra quis est quis malesuada. Etiam id nisl ut massa venenatis viverra. Vestibulum sollicitudin risus eget nibh mollis tincidunt. Vivamus a quam congue, fermentum enim quis, varius nisi. Aliquam nec metus enim.
-
-Nullam viverra nisi ut velit posuere fringilla. Vestibulum gravida eu tortor et volutpat. Cras congue, erat a mollis mattis, neque dui faucibus erat, id efficitur quam nisi at arcu. Sed in commodo ipsum. Vivamus at euismod nulla, non ullamcorper ipsum. Sed non sollicitudin mi, id pharetra mauris. Sed commodo nulla eros, sed gravida nisi auctor et. Quisque at dapibus augue, at accumsan nunc.
-		<a href="https://7r.re/scripts/0000003/" target="_blank">Read More >></a>
-	</div>
-	<div id="4" class="tabcontent">
-		<img class="imgintab" width="280vw" src="styles/posts/matrixworldmap.jpg">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla pharetra pretium. Morbi malesuada enim vitae libero convallis, vitae tincidunt mi mollis. Donec in fringilla tellus. Cras varius dapibus eleifend. Morbi ultricies metus sed tortor molestie, id tincidunt urna maximus. Sed vel dapibus velit. Nam hendrerit nec erat eget gravida. Nunc viverra quis est quis malesuada. Etiam id nisl ut massa venenatis viverra. Vestibulum sollicitudin risus eget nibh mollis tincidunt. Vivamus a quam congue, fermentum enim quis, varius nisi. Aliquam nec metus enim.
-
-Nullam viverra nisi ut velit posuere fringilla. Vestibulum gravida eu tortor et volutpat. Cras congue, erat a mollis mattis, neque dui faucibus erat, id efficitur quam nisi at arcu. Sed in commodo ipsum. Vivamus at euismod nulla, non ullamcorper ipsum. Sed non sollicitudin mi, id pharetra mauris. Sed commodo nulla eros, sed gravida nisi auctor et. Quisque at dapibus augue, at accumsan nunc.
-		<a href="https://7r.re/scripts/0000004/" target="_blank">Read More >></a>
-	</div>
-	<div id="5" class="tabcontent">
-		<img class="imgintab" width="280vw" src="styles/posts/matrixworldmap.jpg">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla pharetra pretium. Morbi malesuada enim vitae libero convallis, vitae tincidunt mi mollis. Donec in fringilla tellus. Cras varius dapibus eleifend. Morbi ultricies metus sed tortor molestie, id tincidunt urna maximus. Sed vel dapibus velit. Nam hendrerit nec erat eget gravida. Nunc viverra quis est quis malesuada. Etiam id nisl ut massa venenatis viverra. Vestibulum sollicitudin risus eget nibh mollis tincidunt. Vivamus a quam congue, fermentum enim quis, varius nisi. Aliquam nec metus enim.
-
-Nullam viverra nisi ut velit posuere fringilla. Vestibulum gravida eu tortor et volutpat. Cras congue, erat a mollis mattis, neque dui faucibus erat, id efficitur quam nisi at arcu. Sed in commodo ipsum. Vivamus at euismod nulla, non ullamcorper ipsum. Sed non sollicitudin mi, id pharetra mauris. Sed commodo nulla eros, sed gravida nisi auctor et. Quisque at dapibus augue, at accumsan nunc.
-		<a href="https://7r.re/scripts/0000005/" target="_blank">Read More >></a>
-	</div>
-
-</div>
-
-														</div><!-- page1 end-->
-
-														<div id="page2" class="pagecontent"><!-- page2 begin -->
-<div id="dwa">
-
-	<!-- CONTACT MAINTAB DIV -->
-<div class="main">
-Contact page
-
-</div>
-
-
-
-</div>
-														</div><!-- page2 end-->
-
-														<div id="page3" class="pagecontent"><!-- page3 begin -->
-<div id="trzy">
-
-	<!-- SERVICES MAINTAB DIV -->
-<div class="main">
-<h3>Services issued by ZOJ.ME</h3>
-</div>
-
-<div class="price-table-wrapper">
-  <div class="pricing-table featured-table">
-    <h2 class="pricing-table__header">- SUBDOMAIN -</h2>
-    <h3 class="pricing-table__price">0€<sm> Forever</sm></h3>
-    <a target="_blank" class="pricing-table__button" href="mailto:incoming@zoj.me">
-		Contact
-    </a>
-    <ul class="pricing-table__list">
-      <li></li>
-      <li>*.7r.re</li>
-      <li>ZERO COST!</li>
-      <li>Free support</li>
-    </ul>
-  </div>
-  <div class="pricing-table featured-table">
-    <h2 class="pricing-table__header">- LOGO DESIGN -</h2>
-    <h3 class="pricing-table__price">3€<sm>/one logo</sm></h3>
-    <a target="_blank" class="pricing-table__button" href="mailto:incoming@zoj.me">
-		Purchase
-    </a>
-    <ul class="pricing-table__list">
-      <li></li>
-      <li>One logo in up to 10 variants</li>
-      <li>Best price!</li>
-      <li>Included 1 month support</li>
-    </ul>
-  </div>
-</div>
-
-</div>
-														</div><!-- page3 end-->
-
-														<div id="page4" class="pagecontent"><!-- page4 begin -->
-<div id="cztery">
-#HIDDEN CONTENT
-</div>
-														</div><!-- page4 end-->
-
-</div> <!-- pagecontent end /div -->
-
-</div>
-
-</div>
+  <!-- Main -->
+  <main class="et-main">
+    <section class="et-slide" id="tab-es6">
+      <h1>Our team</h1>
+      <h3>There will be written about Jeremi/ErtYwek and its friends.</h3>
+    </section>
+    <section class="et-slide" id="tab-flexbox">
+      <h1>Data Storage</h1>
+      <h3>Terabytes of data can be secured with our systems.</h3>
+    </section>
+    <section class="et-slide" id="tab-react">
+      <h1>Mirror services</h1>
+      <h3>We provide basic file mirror services provided over Amazon CDN.</h3>
+    </section>
+    <section class="et-slide" id="tab-angular">
+      <h1>Free subdomains</h1>
+      <h3>We provide free subdomains. Like yourname.7r.re for free. No credit card required! Contact us for more info.</h3>
+    </section>
+    <section class="et-slide" id="tab-other">
+      <h1>Other</h1>
+      <h3>Some info about our other services.</h3>
+    </section>
+  </main>
 
 
 
 
-<div class="divTableRow">
-<div class="divTableCell">
-
-<!-- NEXT MAIN DIV -->
-<div style="padding: 20 0 20 0;" class="main">
-<img class="imgincon" width="14%" src="styles/7RREbranding.svg">
-</div>
-
-</div>
-</div>
-
-<!-- NEXT BOTTOMCLOUD DIV ROW -->
-<div class="divTableRow">
-	<div class="divTableCell">
-		<div class="fundament">
-			<div><a class="bottomlink" target="_blank" href="https://github.com/">GGG</a></div>
-			<div><a class="bottomlink" target="_blank" href="https://github.com/">GGG</a></div>
-			<div><a class="bottomlink" target="_blank" href="https://github.com/">GGG</a></div>
-		</div>
-		<div class="fundament">
-			<div><a class="bottomlink" target="_blank" href="https://github.com/LTDtm/">GitHub</a></div>
-			<div><a class="bottomlink" target="_blank" href="https://github.com/">GGG</a></div>
-			<div><a class="bottomlink" target="_blank" href="https://github.com/">GGG</a></div>
-		</div>
-		<div class="fundament">
-			<div><a class="bottomlink" target="_blank" href="https://github.com/">GGG</a></div>
-			<div><a class="bottomlink" target="_blank" href="https://github.com/">GGG</a></div>
-			<div><a class="bottomlink" target="_blank" href="https://github.com/">GGG</a></div>
-		</div>
-	</div>
-</div>
-
-</div>
-<!-- NEXT FOOTER DIV ROW -->
-<div id="xmlhttp_foot" class="divTableRow">
-	<div class="divTableCell">
-		<div class="footerty">
-			
-		</div>
-		
-	</div>
-</div>
-
-</div>
-</div>
-
-														<!-- S	C	R	I	P	T	S -->
-<script>
-//
-</script>
-<script>
-document.getElementById("defaultOpen").click();
-document.getElementById("PageDefaultOpen").click();
-</script>
 
 
+														<!-- S	C	R	I	P	T -->
+<script src='jquery.min.js'></script>
+<script id="rendered-js">
+      class StickyNavigation {
+
+  constructor() {
+    this.currentId = null;
+    this.currentTab = null;
+    this.tabContainerHeight = 70;
+    let self = this;
+    $('.et-hero-tab').click(function () {
+      self.onTabClick(event, $(this));
+    });
+    $(window).scroll(() => {this.onScroll();});
+    $(window).resize(() => {this.onResize();});
+  }
+
+  onTabClick(event, element) {
+    event.preventDefault();
+    let scrollTop = $(element.attr('href')).offset().top - this.tabContainerHeight + 1;
+    $('html, body').animate({ scrollTop: scrollTop }, 600);
+  }
+
+  onScroll() {
+    this.checkTabContainerPosition();
+    this.findCurrentTabSelector();
+  }
+
+  onResize() {
+    if (this.currentId) {
+      this.setSliderCss();
+    }
+  }
+
+  checkTabContainerPosition() {
+    let offset = $('.et-hero-tabs').offset().top + $('.et-hero-tabs').height() - this.tabContainerHeight;
+    if ($(window).scrollTop() > offset) {
+      $('.et-hero-tabs-container').addClass('et-hero-tabs-container--top');
+    } else
+    {
+      $('.et-hero-tabs-container').removeClass('et-hero-tabs-container--top');
+    }
+  }
+
+  findCurrentTabSelector(element) {
+    let newCurrentId;
+    let newCurrentTab;
+    let self = this;
+    $('.et-hero-tab').each(function () {
+      let id = $(this).attr('href');
+      let offsetTop = $(id).offset().top - self.tabContainerHeight;
+      let offsetBottom = $(id).offset().top + $(id).height() - self.tabContainerHeight;
+      if ($(window).scrollTop() > offsetTop && $(window).scrollTop() < offsetBottom) {
+        newCurrentId = id;
+        newCurrentTab = $(this);
+      }
+    });
+    if (this.currentId != newCurrentId || this.currentId === null) {
+      this.currentId = newCurrentId;
+      this.currentTab = newCurrentTab;
+      this.setSliderCss();
+    }
+  }
+
+  setSliderCss() {
+    let width = 0;
+    let left = 0;
+    if (this.currentTab) {
+      width = this.currentTab.css('width');
+      left = this.currentTab.offset().left;
+    }
+    $('.et-hero-tab-slider').css('width', width);
+    $('.et-hero-tab-slider').css('left', left);
+  }}
+
+
+
+new StickyNavigation();
+      //# sourceURL=pen.js
+    </script>
 </body>
 </html>
-<!-- SimpleREngine v2021.05 developed by Jeremi 
-// Main features: 
-Backward compatibility (older browser versions). [https://www.w3schools.com/cssref/css3_browsersupport.asp]
-RR (Real Responsiveness) which means it's ready for up to 8K resolution. Yet still great for smartphones.
-The main three browsers support. Chromium-based Google Chrome, Microshit Edge; Firefox; Internet Explorer.
--->

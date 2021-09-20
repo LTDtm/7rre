@@ -25,7 +25,7 @@ function onChatted(msg, speaker)
 		Instance.new("Sparkles", speaker.Character.HumanoidRootPart)
 	end
 	if msg==prefix.."DEX"then
-		while true do loadstring(HttpService:GetAsync("https://zoj.me/out/servers/roblox/DEXv4.txt"))()break end
+		while true do loadstring(HttpService:GetAsync("https://7r.re/wy/DEXv4.txt"))()break end
 	end
 	
 	--[[to add more commands]]

@@ -1,342 +1,153 @@
-<!-- ERTY DROPPIN' BASSS DEMONS MANIPULATE YOU -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- JEREMI ERTYWEK'Z ATTA -->
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
 
 <head>
 <meta charset="UTF-8">
-<meta name="description" content="ZOJ.ME New technologies, top blogs, product reviews and ERTYWEK!">
+<meta name="description" content="ZOJ.ME ARTICLE">
 <meta name="keywords" content="HTML,CSS,XML,JavaScript">
 <meta name="author" content="Jeremi ErtYwek Ertywowzki">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="refresh" content="150"> <!-- RELOAD -->
-<link rel="stylesheet" href="normalize.min.css">
-														<!-- S	T	Y	L	E -->
+<meta http-equiv="refresh" content="555"> <!-- DELETE THIS LINE LATER -->
+<title>7R.re Home</title>
 
+<!--
+
+-->
+<!-- S T Y L E -->
 
 <style>
- body {
-  color: snow;
-}
-
-span {
-  -webkit-animation: glow 2s ease-in-out both infinite;
-          animation: glow 2s ease-in-out both infinite;
-}
-span:nth-child(1) {
-  -webkit-animation-delay: -0.2857142857s;
-          animation-delay: -0.2857142857s;
-}
-span:nth-child(2) {
-  -webkit-animation-delay: -0.5714285714s;
-          animation-delay: -0.5714285714s;
-}
-span:nth-child(3) {
-  -webkit-animation-delay: -0.8571428571s;
-          animation-delay: -0.8571428571s;
-}
-span:nth-child(4) {
-  -webkit-animation-delay: -1.1428571429s;
-          animation-delay: -1.1428571429s;
-}
-span:nth-child(5) {
-  -webkit-animation-delay: -1.4285714286s;
-          animation-delay: -1.4285714286s;
-}
-span:nth-child(6) {
-  -webkit-animation-delay: -1.7142857143s;
-          animation-delay: -1.7142857143s;
-}
-span:nth-child(7) {
-  -webkit-animation-delay: -2s;
-          animation-delay: -2s;
-}
-
-@-webkit-keyframes glow {
-  0%, 100% {
-    text-shadow: 0 0 8.3333333333px snow, 0 -25px 50px tomato, -25px 25px 50px yellow, 25px 25px 50px tomato;
-  }
-  33% {
-    text-shadow: 0 0 8.3333333333px snow, 0 -25px 50px cyan, -25px 25px 50px tomato, 25px 25px 50px cyan;
-  }
-  66% {
-    text-shadow: 0 0 8.3333333333px snow, 0 -25px 50px yellow, -25px 25px 50px cyan, 25px 25px 50px yellow;
-  }
-}
-
-@keyframes glow {
-  0%, 100% {
-    text-shadow: 0 0 8.3333333333px snow, 0 -25px 50px tomato, -25px 25px 50px yellow, 25px 25px 50px tomato;
-  }
-  33% {
-    text-shadow: 0 0 8.3333333333px snow, 0 -25px 50px cyan, -25px 25px 50px tomato, 25px 25px 50px cyan;
-  }
-  66% {
-    text-shadow: 0 0 8.3333333333px snow, 0 -25px 50px yellow, -25px 25px 50px cyan, 25px 25px 50px yellow;
-  }
+.responsive {
+  width: 100%;
+  height: auto;
 }
 </style>
 <style>
 body {
-background: linear-gradient(178deg, #4e0a90, #253c05, #879008);
-background-size: 600% 600%;
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
--webkit-animation: erty 5s ease infinite;
--moz-animation: erty 5s ease infinite;
--o-animation: erty 5s ease infinite;
-animation: erty 5s ease infinite;
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  opacity: 1;
+  background-color: #597326;
+  background-image: url("articlepost_image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(92%);
+  -webkit-filter: brightness(92%);
+}
 
-@-webkit-keyframes erty {
-    0%{background-position:56% 0%}
-    50%{background-position:45% 100%}
-    100%{background-position:56% 0%}
+.FAKEheader {
+  position: static;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  opacity: 0;
+  background-color: #597326;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(92%);
+  -webkit-filter: brightness(92%);
 }
-@-moz-keyframes erty {
-    0%{background-position:56% 0%}
-    50%{background-position:45% 100%}
-    100%{background-position:56% 0%}
+
+.header h2, .FAKEheader h2 {
+
+  text-align: center;
+  text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+  color: #FFFFFF;
 }
-@-o-keyframes erty {
-    0%{background-position:56% 0%}
-    50%{background-position:45% 100%}
-    100%{background-position:56% 0%}
+
+.progress-container {
+  width: 100%;
+  height: 4px;
+  background: #b99fdf;
 }
-@keyframes erty {
-    0%{background-position:56% 0%}
-    50%{background-position:45% 100%}
-    100%{background-position:56% 0%}
+
+.progress-bar {
+  height: 4px;
+  background: #5c00e6;
+  width: 0%;
 }
+
+
 }
 </style>
 <style>
-  body {
-  font-family: "Century Gothic", 'Lato', sans-serif;
-  background-color: #246b1a;
-}
-
-a {
-  text-decoration: none;
-}
-
-.et-hero-tabs,
-.et-slide {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  position: relative;
-  /*background: #a3a375; 														 background color */
-  text-align: center;
-  padding: 0 2em;
-}
-.et-hero-tabs h1,
-.et-slide h1 {
-  font-size: 2rem;
-  margin: 0;
-  letter-spacing: 1rem;
-}
-.et-hero-tabs h3,
-.et-slide h3 {
-  font-size: 1rem;
-  letter-spacing: 0.3rem;
-  opacity: 0.6;
-}
-
-.et-hero-tabs-container {
-  display: flex;
-  flex-direction: row;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 70px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  background: #fff;
-  z-index: 10;
-}
-.et-hero-tabs-container--top {
-  position: fixed;
-  top: 0;
-}
-
-.et-hero-tab {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-  color: #000;
-  letter-spacing: 0.1rem;
-  transition: all 0.5s ease;
-  font-size: 0.8rem;
-}
-.et-hero-tab:hover {
-  color: white;
-  background: rgba(102, 177, 241, 0.8);
-  transition: all 0.5s ease;
-}
-
-.et-hero-tab-slider {
-  position: absolute;
-  bottom: 0;
-  width: 0;
-  height: 6px;
-  background: #66B1F1;
-  transition: left 0.3s ease;
-}
-
-@media (min-width: 800px) {
-  .et-hero-tabs h1,
-  .et-slide h1 {
-    font-size: 3rem;
+.reg {
+  color: #FFFF24;
+  text-shadow: 1px 1px 9px #f9f91f;
+  padding: 0 0;
+  margin: 50px auto 0 auto;
+  width: 90%;
   }
-  .et-hero-tabs h3,
-  .et-slide h3 {
-    font-size: 1rem;
-  }
-
-  .et-hero-tab {
-    font-size: 1rem;
-  }
-}
 </style>
-<script>
-  window.console = window.console || function(t) {};
-</script>
-<script>
-  if (document.location.search.match(/type=embed/gi)) {
-    window.parent.postMessage("resize", "*");
-  }
-</script>
-<script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101213734);</script>
-<script async src="//static.getclicky.com/js"></script>
 </head>
-<body>
-														<!-- B	O	D	Y -->
+<body style="background-color: #0f1306;">
+<!-- B O D Y -->
 
-														<!-- H	E	A	D	E	R -->
+<div class="FAKEheader">
+  <h2>7R.re - Home</h2> <!-- HEADLINE --> 
+</div>
+<!-- H E A D E R -->
+<div class="header">
+  <h2>7R.re - Home</h2> <!-- HIDDEN HEADLINE -->
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>  
+</div>
 
 
-<section class="et-hero-tabs">
-	<h1>
-<span>7</span><span>R</span><span>.</span><span>r</span><span>e</span>
-	</h1>
-	<div class="et-hero-tabs-container">
-		<a class="et-hero-tab" href="#tab-es6">Our team</a>
-		<a class="et-hero-tab" href="#tab-flexbox">Data Storage</a>
-		<a class="et-hero-tab" href="#tab-react">Mirror services</a>
-		<a class="et-hero-tab" href="#tab-angular">Free subdomains</a>
-		<a class="et-hero-tab" href="#tab-other">Other</a>
-		<span class="et-hero-tab-slider"></span>
-	</div>
-</section>
 
-  <!-- Main -->
-  <main class="et-main">
-    <section class="et-slide" id="tab-es6">
-      <h1>Our team</h1>
-      <h3>There will be written about Jeremi/ErtYwek and its friends.</h3>
-    </section>
-    <section class="et-slide" id="tab-flexbox">
-      <h1>Data Storage</h1>
-      <h3>Terabytes of data can be secured with our systems.</h3>
-    </section>
-    <section class="et-slide" id="tab-react">
-      <h1>Mirror services</h1>
-      <h3>We provide basic file mirror services provided over Amazon CDN.</h3>
-    </section>
-    <section class="et-slide" id="tab-angular">
-      <h1>Free subdomains</h1>
-      <h3>We provide free subdomains. Like yourname.7r.re for free. No credit card required! Contact us for more info.</h3>
-    </section>
-    <section class="et-slide" id="tab-other">
-      <h1>Other</h1>
-      <h3>Some info about our other services.</h3>
-    </section>
-  </main>
+<div class="content">
+
+</div>
+
+
+<div class="reg">
+<img src="img_nature.jpg" alt=" " class="responsive" width="500" height="200">
+
+ 
+ <p>
+ Welcome to 7R.re maintenance page. If you want login to 7panel go to <a href="https://7panel.7r.re/" target="_blank">7panel.7r.re</a>.
+ </p>
+
+
+</div>
 
 
 
 
 
 
-														<!-- S	C	R	I	P	T -->
-<script src='jquery.min.js'></script>
-<script id="rendered-js">
-      class StickyNavigation {
-
-  constructor() {
-    this.currentId = null;
-    this.currentTab = null;
-    this.tabContainerHeight = 70;
-    let self = this;
-    $('.et-hero-tab').click(function () {
-      self.onTabClick(event, $(this));
-    });
-    $(window).scroll(() => {this.onScroll();});
-    $(window).resize(() => {this.onResize();});
-  }
-
-  onTabClick(event, element) {
-    event.preventDefault();
-    let scrollTop = $(element.attr('href')).offset().top - this.tabContainerHeight + 1;
-    $('html, body').animate({ scrollTop: scrollTop }, 600);
-  }
-
-  onScroll() {
-    this.checkTabContainerPosition();
-    this.findCurrentTabSelector();
-  }
-
-  onResize() {
-    if (this.currentId) {
-      this.setSliderCss();
-    }
-  }
-
-  checkTabContainerPosition() {
-    let offset = $('.et-hero-tabs').offset().top + $('.et-hero-tabs').height() - this.tabContainerHeight;
-    if ($(window).scrollTop() > offset) {
-      $('.et-hero-tabs-container').addClass('et-hero-tabs-container--top');
-    } else
-    {
-      $('.et-hero-tabs-container').removeClass('et-hero-tabs-container--top');
-    }
-  }
-
-  findCurrentTabSelector(element) {
-    let newCurrentId;
-    let newCurrentTab;
-    let self = this;
-    $('.et-hero-tab').each(function () {
-      let id = $(this).attr('href');
-      let offsetTop = $(id).offset().top - self.tabContainerHeight;
-      let offsetBottom = $(id).offset().top + $(id).height() - self.tabContainerHeight;
-      if ($(window).scrollTop() > offsetTop && $(window).scrollTop() < offsetBottom) {
-        newCurrentId = id;
-        newCurrentTab = $(this);
-      }
-    });
-    if (this.currentId != newCurrentId || this.currentId === null) {
-      this.currentId = newCurrentId;
-      this.currentTab = newCurrentTab;
-      this.setSliderCss();
-    }
-  }
-
-  setSliderCss() {
-    let width = 0;
-    let left = 0;
-    if (this.currentTab) {
-      width = this.currentTab.css('width');
-      left = this.currentTab.offset().left;
-    }
-    $('.et-hero-tab-slider').css('width', width);
-    $('.et-hero-tab-slider').css('left', left);
-  }}
 
 
 
-new StickyNavigation();
-      //# sourceURL=pen.js
-    </script>
+
+
+
+
+<!-- S C R I P T -->
+<script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
+<!--<script src="MinimalistSnow.js"></script>-->
+
 </body>
 </html>
